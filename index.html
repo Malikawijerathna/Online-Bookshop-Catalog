@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>online bookshop catalog</title>
+</head>
+<body>
+    <h1>📚 Apex Bookshop & Stationers</h1>
+    <p>Welcome to our school bookshop. Use the quick links below to jump straight to your section:</p>
+    <ul>
+        <li><a href="#Story">Story Books Section</a></li>
+        <li><a href="#Textbooks">Textbooks Section</a></li>
+        <li><a href="#Order">Place an Order</a></li>
+    </ul>
+    <hr>
+    <h2 id="Story">📖 Story Books Section</h2>
+    <table border="1"> <cellpadding="10">
+        <tr>
+            <th>Book Cover</th>
+            <th>Book Title & Details</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td><img src= "The Secret Island.jpg" alt="The Secret Island" width="100" height="150" ></td>
+            <td><h4>  The Secret Island</h4> <h6>Author: Enid Blyton</h6>
+                <p>  An exciting adventure story about four children spending their holidays on a hidden island.</p></td>
+            <td> <center>Rs. 850.00</center></td>
+            <td> <center>In Stock</center></td>
+        </tr>
+        <tr>
+            <td><center><img src="Madol Doova.jpg" alt="Madolduwa" width="100" height="150"></center></td>
+            <td><h4>Madolduwa</h4> <h6>Author: Martin Wijewardena</h6>
+                <p>A classic Sinhalese novel translated into English, showcasing the lives of teenage boys on an isolated island.</p></td>
+            <td><center>Rs. 660.00</center></td>
+            <td><center>In Stock</center></td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <a href="#top">🔺 Back to Top</a>
+    <hr>
+
+    <h2 id="Textbooks">📝 School Textbooks</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Medium</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Information & Communication Technology(ICT)</td>
+            <td>Grade 10/11</td>
+            <td>English Medium</td>
+            <td>Rs. 450.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Grade 11</td>
+            <td>English Medium</td>
+            <td>Rs. 520.00</td>
+            <td><s>Out Of Stock</s></td>
+        </tr>
+        </table>
+       
+    <a href="#top">🔺 Back to Top</a>
+<hr>
+
+    <h2 id="Order">🛒 Quick Order Reservation</h2>
+   <p>Fill out this form to reserve your books before coming to the store.</p>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Order Details</legend>
+
+            <label for="admission">
+                Student Admission No:
+            </label>
+            <br>
+
+            <input
+                type="text"
+                id="admission"
+                placeholder="e.g. ST-1234">
+
+            <br><br>
+
+            <label for="book">
+                Select Book to Reserve:
+            </label>
+            <br>
+
+            <select id="book">
+                <option>The Secret Island (Rs. 850.00)</option>
+                <option>Madol Doova (Rs. 600.00)</option>
+                <option>ICT Textbook (Rs. 450.00)</option>
+                <option>Mathematics Textbook (Rs. 520.00)</option>
+            </select>
+
+            <br><br>
+
+            <label for="date">
+                Preferred Collection Date:
+            </label>
+            <br>
+
+            <input type="date" id="date">
+
+            <br><br>
+
+            <label for="notes">
+                Special Notes / Instructions:
+            </label>
+            <br>
+
+            <textarea
+                id="notes"
+                rows="5"
+                cols="50"
+                placeholder="Any specific requirements...">
+            </textarea>
+
+            <br><br>
+
+            <input
+                type="submit"
+                value="Submit Reservation">
+
+            <input
+                type="reset"
+                value="Reset Form">
+
+        </fieldset>
+
+    </form>
+
+ 
+</body>
+</html>
